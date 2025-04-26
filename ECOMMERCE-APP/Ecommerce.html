@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECOMMERCE</title>
-    <link rel="stylesheet" href="Ecommerce..css">
+    <link rel="stylesheet" href="Ecommerce.css">
 </head>
 <body>
     <header>
@@ -17,30 +17,80 @@
             </nav>
         </div>
     </header>
-    
-    <section class="main">
-        <div class="card">
-            <div class="image-card">
-                <img src="picture1.jpeg" alt="">
+
+    <main>
+        <section class="main">
+            <div class="card">
+                <div class="image-card">
+                    <img src="picture.6.png" alt="Penquin Plush Toy">
+                </div>
+                <h1>Penquin</h1>
+                <p>Babique Penquin Plush and Soft Toy</p>
+                <span>Price: 250</span>
             </div>
-            <h1>Dedy1</h1>
-        </div>
-        <div class="card">
-            <div class="image-card">
-                <img src="picture2.jpeg" alt="">
+            <div class="card">
+                <div class="image-card">
+                    <img src="picture5.jpeg" alt="Off Road Vehicle Toy Car">
+                </div>
+                <h1>Vehicle</h1>
+                <p>Off Road Die Cast, Opening Doors, Vehicle Toy Car</p>
+                <span>Price: 1000</span>
             </div>
-            <h1>Dedy2</h1>
-        </div>
-        <div class="card">
-            <div class="image-card">
-                <img src="picture3.jpeg" alt="">
-            </div>
-            <h1>Dedy3</h1>
-            <p>HUG 'n' FEEL SOFT TOYS Soft Toy Teddy Bear Plush & Stuffed Toys (Brown) </p>
-            <div class="pic3"><span>price:450</span></div>
+            <div class="card">
+                <div class="image-card">
+                    <img src="picture3.jpeg" alt="Teddy Bear Soft Toy">
+                </div>
+                <h1>Teddy Bear</h1>
+                <p>Hug 'n' Feel Soft Toys Soft Toy Teddy Bear</p>
+                <span>Price: 500</span>
+            </div> 
+            <div class="card">
+                <div class="image-card">
+                    <img src="picture10.jpeg" alt="Ceramic Coffee Mug">
+                </div>
+                <h1>Coffee Mug</h1>
+                <p>Designer Ceramic Coffee Mugs</p>
+                <span>Price: 70</span>
+            </div> 
+        </section>
+    </main>
+
+    <section class="product-search">
+        <h2>Find a Product</h2>
+        <input type="text" id="fetchproduct" placeholder="Enter Product Name">
+        <button onclick="fetchData()">Fetch Product</button>
+
+        <div id="fetched-product" style="display: none; margin-top: 20px;">
+            <h3 id="product-title"></h3>
+            <p id="product-price"></p>
         </div>
     </section>
-</main>
+
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading1">
+                <h2>About Us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">Investors</a>
+            </div>
+            <div class="footer-heading2">
+                <h2>Contact Us</h2>
+                <a href="#">Jobs</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+                <a href="#">Sponsorships</a>
+            </div>
+            <div class="footer-heading3">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+                <a href="#">Telegram</a>
+            </div>
+        </div>
+    </div>
 
     <script src="Ecommerce.js"></script>
 </body>
